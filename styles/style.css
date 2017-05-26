@@ -1,0 +1,151 @@
+* {
+	
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+}
+
+hr {
+	height: 4px !important;
+	color: #7d97ad;
+	background-color: #7d97ad;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.text {
+	padding-right: inherit;
+	padding-left: inherit; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.featured {
+	margin-bottom: 10%;
+}
+
+
+@media screen and (max-width: 480px){
+	.first_heading {
+		font-family: 'Lato' open-sans;
+		font-weight: 100; 
+		letter-spacing: 2px;
+		font-size: 2em;
+		color: #2d3c49;
+		margin-top: 15px !important;
+
+	}
+
+	.second_heading {
+		font-family: 'Lato' open-sans;
+		font-weight: 200; 
+		letter-spacing: 3px;
+		font-size: 12px;
+		color: #2d3c49;
+	}	
+
+	.logo {
+		margin-top: 15px !important;
+		max-width: 100%;
+	}
+
+	.third-heading {
+		font-family: 'Lato' open-sans;
+		font-weight: 200; 
+		letter-spacing: 4px;
+		font-size: 20px;
+		color: #7d97ad;
+
+	}
+
+	.fourth-heading {
+		font-family: 'Lato' open-sans;
+		letter-spacing: 4px;
+		font-size: 25px;
+		color: #2d3c49;
+		font-weight: 200; 
+	}
+
+	.fifth-heading a {
+		font-family: 'Lato' open-sans;
+		font-weight: 100; 
+		letter-spacing: 2px;
+		font-size: 15px;
+		color: #2d3c49;
+	}
+
+}    
+
+
+@media screen and (min-width: 481px) {
+	body {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.text {
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+	}
+
+	.first_heading {
+		font-family: 'Lato' open-sans;
+		font-weight: 100; 
+		letter-spacing: 2px;
+		font-size: 3em;
+		color: #2d3c49;
+		text-align: right;
+		margin-top: 15px !important;
+	}
+
+	.logo {
+		margin-top: 15px !important;
+		max-width: 100%;
+		height: 70px;
+		width: 70px;
+	}
+
+	.second_heading {
+		font-family: 'Lato' open-sans;
+		font-weight: 200; 
+		letter-spacing: 2px;
+		font-size: 20px;
+		color: #2d3c49;
+		text-align: right;
+	}	
+
+	.third-heading {
+		font-family: 'Lato' open-sans;
+		font-weight: 200; 
+		letter-spacing: 4px;
+		font-size: 30px;
+		color: #7d97ad;
+		margin-left: 15px;
+	}
+
+	.fourth-heading {
+		font-family: 'Lato' open-sans;
+		letter-spacing: 4px;
+		font-size: 35px;
+		color: #2d3c49;
+		font-weight: 200; 
+	}
+
+	.fifth-heading a {
+		font-family: 'Lato' open-sans;
+		font-weight: 100; 
+		letter-spacing: 2px;
+		font-size: 15px;
+		color: #2d3c49;
+	}
+
+}
+
+
+
